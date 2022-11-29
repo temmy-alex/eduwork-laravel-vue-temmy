@@ -1,0 +1,30 @@
+===Database adian
+
+== Table structure for table apotek
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id_produk**//|int(11)|No|
+|nama_produk|varchar(30)|No|
+|jenis_produk|varchar(14)|No|
+|stok|char(10)|No|
+|harga|char(15)|No|
+== Dumping data for table apotek
+
+|1|Detal|Vitamin|100|Rp. 7.000
+|2|Redoxin|Obat Luar|250|Rp. 15.000
+|3|Masker|Alat Kesehatan|500|Rp. 9.000
+|4|Gloves|Alat Kesehatan|700|Rp. 3.000
+|5|Neoremasol|Obat Luar|450|Rp. 19.000
+|6|Veral|Kosemetik|300|Rp. 27.000
+|7|Mixagrup|Obat Dalam|500|Rp. 22.000
+|8|Holisticare|Vitamin|700|Rp. 14.000
+|9|Stop-X|Obat Luar|850|Rp. 18.500
+|10|OHB|Obat Dalam|750|Rp. 21.000
+|11|Mustikarani|Kosemetik|450|Rp. 54.000
+|12|pH Isohex|Kosemetik|730|Rp. 35.000
+|13|Kontrexan|Obat Dalam|830|Rp. 5.000
+|14|Salep 88|Obat Luar|580|Rp. 25.000
+|15|Viva|Kosemetik|540|Rp. 24.000
+|16|C-1000|Vitamin|250|Rp. 14.500
