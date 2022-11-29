@@ -1,0 +1,31 @@
+===Database adian
+
+== Table structure for table apotek
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id_produk**//|int(11)|No|
+|nama_produk|varchar(30)|No|
+|kode|varchar(10)|Yes|NULL
+|tahun|varchar(5)|Yes|NULL
+|jenis_produk|varchar(14)|No|
+|stok|char(10)|No|
+|harga|char(15)|No|
+== Dumping data for table apotek
+
+|1|Detal|b21|2017|Vitamin|100|Rp. 7.000
+|2|Remasil|b33|2018|Obat Luar|250|Rp. 15.000
+|3|Masker|b45|2020|Alat Kesehatan|500|Rp. 9.000
+|4|Suntikan|b45|2020|Alat Kesehatan|700|Rp. 3.000
+|5|Neoromachyl|b45|2018|Obat Luar|450|Rp. 19.000
+|6|Veral|b45|2019|Kosemetik|300|Rp. 27.000
+|7|Mixagrup|b21|2021|Obat Dalam|500|Rp. 22.000
+|8|Holisticare|b33|2017|Vitamin|700|Rp. 14.000
+|9|Stop-X|b45|2018|Obat Luar|850|Rp. 18.500
+|10|OHB|b21|2021|Obat Dalam|750|Rp. 21.000
+|11|Mustikarani|b21|2019|Kosemetik|450|Rp. 54.000
+|12|pH Isohex|b45|2019|Kosemetik|730|Rp. 35.000
+|13|Kombantrin|b21|2021|Obat Dalam|830|Rp. 5.000
+|14|Salep 88|b21|2018|Obat Luar|580|Rp. 25.000
+|15|Remasil|b33|2019|Kosemetik|540|Rp. 24.000
