@@ -1,0 +1,15 @@
+# Tugas Simple Querry
+### by Andi Wahyu KM
+
+[DB](https://github.com/temmy-alex/eduwork-laravel-vue-temmy/blob/andi_wahyu-belajar_git/andi_wahyu/tugas_database/tugas_database_apotek.sql)
+
+1. SELECT * FROM `obat` ;
+2. SELECT * FROM `transaksi` ;
+3. SELECT * FROM `obat` WHERE nama_obat LIKE '%vitamin%';
+4. SELECT nama_obat, harga, stok FROM `obat` WHERE nama_obat LIKE '%vitamin c%';
+5. SELECT id_obat, nama_obat, kemasan FROM `obat` WHERE stok = 0;
+6. DELETE FROM `obat` WHERE  stok = 0;
+7. INSERT INTO `obat`(`nama_obat`, `kemasan`, `harga`, `stok`) VALUES ('pil kb', 'ktk 3 x 10 tablet', 10000, 5);
+8. UPDATE `obat` SET `stok` = 10 WHERE `id_obat`= 342;
+9. SELECT * FROM `transaksi` WHERE jumlah > 2;
+10. INSERT INTO `transaksi`(`id_obat`, `jumlah`) VALUES (342, 3);

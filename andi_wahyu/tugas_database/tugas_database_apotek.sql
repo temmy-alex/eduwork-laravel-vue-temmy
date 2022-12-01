@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2022 at 09:27 AM
+-- Generation Time: Dec 01, 2022 at 03:45 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -595,7 +595,15 @@ CREATE TABLE `transaksi` (
 
 INSERT INTO `transaksi` (`id_transaksi`, `id_obat`, `tanggal`, `jumlah`) VALUES
 (1, 49, '2022-11-30 16:25:29', 5),
-(2, 228, '2022-11-30 16:26:27', 1);
+(2, 228, '2022-11-30 16:26:27', 1),
+(3, 154, '2022-11-14 19:57:10', 1),
+(4, 5, '2022-12-02 04:01:33', 2),
+(5, 284, '2022-12-01 07:00:00', 1),
+(6, 39, '2022-11-15 12:37:28', 1),
+(7, 199, '2022-12-01 08:24:28', 2),
+(8, 169, '2022-12-01 03:20:43', 2),
+(9, 510, '2022-11-23 12:37:28', 3),
+(10, 503, '2022-11-21 13:23:40', 1);
 
 --
 -- Indexes for dumped tables
@@ -628,7 +636,7 @@ ALTER TABLE `obat`
 -- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Constraints for dumped tables
