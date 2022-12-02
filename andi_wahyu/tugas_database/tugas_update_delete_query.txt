@@ -1,0 +1,10 @@
+# Tugas Update dan Delete Query
+### by Andi Wahyu KM
+
+[DB](https://github.com/temmy-alex/eduwork-laravel-vue-temmy/blob/andi_wahyu-belajar_git/andi_wahyu/tugas_database/tugas_database_apotek.sql)
+
+1. UPDATE obat SET stok = 10 WHERE id_obat = 278;
+2. UPDATE transaksi SET jumlah = 4 WHERE id_transaksi = 4;
+3. DELETE FROM obat WHERE stok = 0;
+4. DELETE FROM obat WHERE nama_obat LIKE '%paracetamol%';
+5. DELETE FROM transaksi WHERE MONTH(tanggal) = 11;
